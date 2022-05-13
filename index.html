@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.88.1">
+  <title>Registro salas</title>
+
+
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/cover.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="assets/css/cover.css" rel="stylesheet">
+</head>
+
+<body class="d-flex h-100 text-center text-white bg-dark">
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+
+    <symbol id="Google" viewBox="0 0 16 16">
+      <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
+    </symbol>
+  </svg>
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="mb-auto">
+      <div>
+        <h3 class="float-md-start mb-0">Salas</h3>
+        <nav class="nav nav-masthead justify-content-center float-md-end">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a type="button" class="nav-link" data-bs-toggle="modal" data-bs-target="#signModal">
+            Sign in
+          </a>
+          <a class="nav-link" aria-current="page" href="#" id="logout">Logout</a>
+
+          <!-- <a class="nav-link" href="#">Contact</a> -->
+        </nav>
+      </div>
+    </header>
+
+    <!--modals-->
+    <div class="modal fade py-5 " id="signModal" tabindex="-1" aria-labelledby="signModalLabel" aria-hidden="true">
+      <div class="modal-dialog " role="document">
+        <div class="modal-content rounded-5 shadow text-white bg-dark">
+          <div class="modal-header p-5 pb-4 border-bottom-0">
+            <!-- <h5 class="modal-title">Modal title</h5> -->
+            <h2 class="fw-bold mb-0">Sign in</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+  
+          <div class="modal-body p-5 pt-0">
+            <form id="sign-form">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control rounded-4 " id="sign-email" placeholder="name@example.com">
+                <label for="sign-email" class="text-secondary">Email address</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="password" class="form-control rounded-4" id="sign-password" placeholder="Password">
+                <label for="sign-password" class="text-secondary">Password</label>
+              </div>
+              <button class="w-100 mb-2 btn btn-lg rounded-4 btn-primary" id="form-log" type="submit">Sign In</button>
+              
+              <hr class="my-4" id="hr-log">
+              <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
+
+              <button class="w-100 py-2 mb-2 btn btn-outline-danger rounded-4" type="submit" >
+                <svg class="bi me-1" width="16" height="16">
+                  <use xlink:href="#Google" />
+                </svg>
+                Sign up with Google
+              </button>
+             
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="px-3">
+      <h1>Cover your page.</h1>
+      <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the
+        text, and add your own fullscreen background photo to make it your own.</p>
+      <p class="lead">
+        <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
+      </p>
+    </main>
+
+    <footer class="mt-auto text-white-50">
+      <p>Cambio de contraseña
+        <a href="#" id="mensaje" class="text-white">Jeison</a>.
+      </p>
+
+      <p>Cambio de contraseña2
+        <a href="https://wa.me/573132786104?text=cambio de contraseña "  target="_blank"id="mensaje" class="text-white">Jeison</a>.
+      </p>
+    </footer>
+  </div>
+
+  <script src="assets/dist/js/jquery.slim.min.js"></script>
+  <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js" type="module"></script>
+
+</body>
+
+</html>
